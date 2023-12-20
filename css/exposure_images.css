@@ -1,0 +1,257 @@
+#main-content .bg-content #images {
+	display:none;	
+}
+
+#main-content .bg-content .panel {
+	float:left;	
+}
+
+#main-content .bg-content ul.exposureThumbs 
+{
+	border-right:none;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+
+#main-content .bg-content ul.exposureThumbs li 
+{
+	margin:0 0 5px 10px;
+	padding:0;
+	text-align:center;
+	display:none;
+}
+
+#main-content .bg-content ul.exposureThumbs li img {
+	cursor:pointer;	
+	width:100px;
+	height:auto;
+}
+
+#main-content .bg-content ul.exposureThumbs li.last {
+	margin:0 0 5px 10px;	
+}
+
+#main-content .bg-content .exposureTarget {
+	width:610px;
+	min-height: 600px; 
+	max-height: 800px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	float:left;	
+	padding:0;
+	margin:0;
+	position:relative;
+	overflow:hidden; 
+}
+
+#main-content .bg-content .slidecata .exposureWrapper {
+	position:absolute;
+	width: 100%;
+}
+#main-content .bg-content .slidecata .exposureWrapper {
+	position:absolute;
+	top:0; 
+	left:0;
+}
+
+#main-content .bg-content .slidecata .exposureWrapper img {
+	cursor:pointer;
+	position:absolute;
+	top:0;
+	left:0;
+	width: 100%;
+}
+
+#main-content .bg-content .exposureLoaded {
+	background-image:none;	
+}
+
+#main-content .bg-content .exposureData {
+	position:relative;
+ 	left:0;
+ 	right:0;
+ 	bottom:0;
+	height:30px;
+	line-height: 30px;
+	text-indent: 10px;
+	background-color:rgba(0,0,0,0.5);
+	color:#fff;
+	font-size:1.5em;
+	font-weight:bold;
+}
+
+/* In this demo we are using thumbs with fixed size */
+#main-content .bg-content ul.exposureThumbs li {
+}
+
+#main-content .bg-content #controls {
+	margin-left:5px;
+	padding-left: 5px;	
+}
+
+#main-content .bg-content .exposureSlideshowControls a,
+#main-content .bg-content .exposureControls span,
+#main-content .bg-content .exposureControls a {
+	font-size:11px;
+	padding:5px 6px;
+	display:block;
+	float:left;
+	margin:0 0 5px 0;
+}
+
+#main-content .bg-content .exposureSlideshowControls a {
+	float:right;
+}
+
+#main-content .bg-content .exposureSlideshowControls a,
+#main-content .bg-content .exposureControls a {
+	color:#484848;
+	text-decoration:none;
+	outline:none;
+}
+
+#main-content .bg-content .exposureSlideshowControls a:active,
+#main-content .bg-content .exposureSlideshowControls a:hover,
+#main-content .bg-content .exposureControls a:active,
+#main-content .bg-content .exposureControls a:hover {
+	color:#FF0000;
+}
+
+#main-content .bg-content .exposurePaging .active {
+	color:#FF0000;	
+}
+
+#main-content .bg-content .clear {
+	clear:both;	
+}
+
+#main-content .bg-content p.info {
+	margin:40px auto;
+	text-align:center;	
+	width:600px;
+}
+
+#main-content .bg-content p.info a {
+	color:#006fc0;	
+}
+
+#main-content .bg-content p.info a:hover, p.info a:active {
+	color:#0084e7;	
+}
+
+@media only screen and (min-width:1024px) and (max-width: 1920px){
+
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+	
+	#main-content .bg-content .exposureWrapper img {
+		cursor:pointer;
+		position:absolute;
+		top:0;
+		left:0;
+		width: 420px;
+	}
+	#main-content .bg-content .exposureTarget {
+		width:420px;
+		min-height: 400px; 
+		max-height: 600px;
+	}
+	#main-content .bg-content ul.exposureThumbs li img {
+		width:90px;
+	}
+	#main-content .bg-content #controls {
+		margin-left:3px;
+		padding-left: 5px;	
+	}
+}
+@media only screen and (min-width: 565px) and (max-width: 799px) {
+	#main-content .bg-content .exposureWrapper img {
+		cursor:pointer;
+		position:absolute;
+		top:0;
+		left:0;
+		width: 420px;
+	}
+	#main-content .bg-content .exposureTarget {
+		width:420px;
+		min-height: 400px; 
+		max-height: 600px;
+	}
+	#main-content .bg-content ul.exposureThumbs li img {
+		width:80px;
+	}
+	#main-content .bg-content #controls {
+		margin-left:3px;
+		padding-left: 5px;	
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 564px) {
+	#main-content .bg-content .exposureWrapper img {
+		cursor:pointer;
+		position:absolute;
+		top:0;
+		left:0;
+		width: 340px;
+	}
+	#main-content .bg-content .exposureTarget {
+		width:80%;
+		min-height: 400px; 
+		max-height: 600px;
+	}
+	#main-content .bg-content ul.exposureThumbs li img {
+		width:80px;
+	}
+	#main-content .bg-content #controls {
+		margin-left:3px;
+		padding-left: 5px;	
+	}
+}
+@media only screen and (max-width: 479px) {
+	#main-content .bg-content .panel {
+		margin-top:15px;
+		width: 100%;
+	}
+	#main-content .bg-content .exposureWrapper img {
+		cursor:pointer;
+		position:absolute;
+		width: 290px;
+	}
+	#main-content .bg-content .exposureTarget {
+		width:80%;		
+		min-height: 210px;
+		max-height: 450px;
+		vertical-align: middle;
+	}
+	
+	#main-content .bg-content #controls {
+		margin-left:0px;
+		padding-left: 0px;	
+	}
+	#main-content .bg-content ul.exposureThumbs 
+	{
+		border-right:none;
+		padding:0;
+		margin:0;
+		list-style-type:none;
+		float: left;
+	}
+	#main-content .bg-content ul.exposureThumbs li img {
+		width:85px;
+		height: 60px;
+		float:left;
+	}	
+	#main-content .bg-content ul.exposureThumbs li 
+	{
+		margin:0 0 5px 10px;
+		padding:0;
+		text-align:center;
+		display:none;
+		float: left;
+	}	
+	#main-content .bg-content ul.exposureThumbs li.last {
+		margin:0 0 5px 10px;
+		float: left;
+	}
+
+}

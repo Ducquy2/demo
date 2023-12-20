@@ -1,0 +1,339 @@
+#map-container{
+	clear: left;
+	float: left;
+	margin-top: 10px;
+	min-height: 400px;
+	width: 1000px;
+}
+
+#map-container a{
+	color: #f00;
+	text-decoration: none;
+}
+
+#map-container a:hover, #map-container a:active{
+	text-decoration: underline;
+}
+
+#map-container .fltLeft{
+	float: left;
+	width: 350px;
+}
+
+#map-container .fltLeft .store_list_title{
+	float: left;
+	width: 100%;
+	padding-top: 20px;
+}
+
+#loc-list{
+	float: left; 
+	width: 300px;
+	height: 530px;
+	overflow: auto;
+}
+
+#loc-list ul{
+	display: block;
+	clear: left;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#loc-list .list-label{
+	float: left;
+	margin: 10px 0 0 6px;
+	padding: 2px 3px;
+	width: 17px;
+	text-align: center;
+	background: #451400;
+	color: #fff;
+	font-weight: bold;
+}
+
+#loc-list .list-details{
+	float: left;
+	margin-left: 6px;
+	width: 200px;
+}
+
+#loc-list .list-details{
+	float: left;
+	margin-left: 6px;
+	width: 200px;
+}
+
+#loc-list .list-content{
+	padding: 10px;
+}
+
+#loc-list .loc-dist{
+	font-weight: bold;
+	font-style: italic;
+	color: #8e8e8e;
+}
+
+#loc-list li{
+	display: block;
+	clear: left;
+	float: left;
+	margin: 6px 10px;
+	cursor: pointer;
+	width: 270px;
+	border: 1px solid #f00; /* Adding this to prevent moving li elements when adding the list-focus class*/
+}
+
+#loc-list .list-focus{
+	border: 1px solid rgba(82,168,236,0.9);
+	-moz-box-shadow: 0 0 8px rgba(82,168,236,0.7);
+	-webkit-box-shadow: 0 0 8px rgba(82,168,236,0.7);
+	box-shadow: 0 0 8px rgba(82,168,236,0.7);
+	transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+/*-------------------------------------*/
+#store-selected-detail{
+	float: left; 
+	width: 100%;
+/*	height: 530px;*/
+	overflow: auto;
+}
+
+#store-selected-detail ul{
+	display: block;
+	clear: left;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#store-selected-detail .list-label{
+	float: left;
+	margin: 10px 0 0 6px;
+	padding: 2px 3px;
+	width: 17px;
+	text-align: center;
+	background: #451400;
+	color: #fff;
+	font-weight: bold;
+}
+
+#store-selected-detail .list-details{
+	float: left;	
+	width: 100%;
+	line-height: 20px;
+}
+
+#store-selected-detail .list-details .list-details-left{
+	float: left;	
+	width: 40%;
+	padding: 10px 0;
+}
+
+#store-selected-detail .list-details .list-details-right{
+	float: left;	
+	width: 58%;
+	padding: 10px 0;
+	line-height: 20px;
+}
+
+#store-selected-detail .list-details .loc-addr2{
+	float: left;	
+	padding: 10px 0;
+	width: 100%;
+}
+
+#store-selected-detail .list-details .loc-addr2 img{
+	width: 230px;
+	border:1px solid #dadada;
+	border-radius: 5px;
+}
+
+#store-selected-detail .list-details .loc-hour{
+	float: left;	
+	width: 100%;
+}
+
+.btop{
+	border-top: 1px solid #f00; 
+	padding-top: 5px;
+	margin-top:5px;
+}
+
+.bbottom{
+	border-bottom: 1px solid #f00; 
+	padding-bottom: 5px;
+}
+ 
+#store-selected-detail .list-details .loc-hour .hour-left{
+	float: left;	
+	width: 25%;
+}
+
+#store-selected-detail .list-details .loc-hour .hour-right{
+	float: right;	
+	width: 75%;
+}
+
+#store-selected-detail .list-content{
+	padding: 10px;
+}
+
+#store-selected-detail .loc-dist{
+	font-weight: bold;
+	font-style: italic;
+	color: #8e8e8e;
+}
+
+#store-selected-detail li{
+	display: block;
+	clear: left;
+	float: left;
+	margin: 6px 10px;
+	cursor: pointer;
+	width: 200px;
+	border: 1px solid #fff; /* Adding this to prevent moving li elements when adding the list-focus class*/
+}
+
+#store-selected-detail .list-focus{
+	border: 1px solid rgba(82,168,236,0.9);
+	-moz-box-shadow: 0 0 8px rgba(82,168,236,0.7);
+	-webkit-box-shadow: 0 0 8px rgba(82,168,236,0.7);
+	box-shadow: 0 0 8px rgba(82,168,236,0.7);
+	transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+/*----------------------------------------------------------------------*/
+
+#map-container .loc-name{
+	color: #AD2118;
+	font-weight: bold;
+	font-size: 11pt;
+}
+
+#search-form{
+	clear: left;
+	float: left;
+	height: 60px;
+}
+
+#form-input{
+	float: left;
+	margin-top: 3px;
+	padding: 0 0 10px 0;
+}
+
+#form-input input{
+	padding: 5px 0;
+	line-height: 16px;
+	border: 1px solid #ccc;
+	margin-right: 5px;
+}
+
+#address{
+	margin: 10px 0;
+}
+
+#submit{
+	float: right;
+	cursor: pointer;
+	margin: 10px 0;
+	padding: 3px 6px;
+	background: #ae2118;
+	border: 1px solid #961f17;
+	color: #fff;
+	-webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#loading-map{
+	float: left;
+	margin: 4px 0 0 10px;
+	width: 16px;
+	height: 16px;
+	background: url(../images/ajax-loader.html) no-repeat;
+}
+
+#map{
+	float: right; 
+	width: 640px; 
+	height: 400px; 
+}
+
+/* Infowindow Roboto font override */
+.gm-style div, .gm-style span, .gm-style label, .gm-style a{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Modal window */
+
+#overlay{
+     position: fixed;
+     left: 0px;
+     top: 0px;
+     width:100%;
+     height:100%;
+     z-index: 10000;
+     background: url(../images/overlay-bg.html) repeat;
+}
+
+#modal-window{
+	position: absolute;
+	left: 50%;
+    margin-left: -460px; /* width divided by 2 */
+    margin-top: 60px;
+    width: 920px;
+	height: 590px;
+	z-index: 10010;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #656565;
+}
+
+#modal-content{
+	float: left;
+	padding: 0 22px; /* there's already a margin on the top of the map-container div */
+}
+
+#close-icon{
+	position: absolute;
+	top: -6px;
+	right: -6px;
+	width: 18px;
+	height: 18px;
+	cursor: pointer;
+	background: #2c2c2c url(../images/close-icon.html) 3px 3px no-repeat;
+	border: 1px solid #000;
+	border-radius: 3px;
+	box-shadow: 0 0 3px #656565;
+}
+/*--------------------------------------*/
+#store_list{
+	float:left;
+	width:100%;
+	padding-top: 20px
+}
+
+#store_list a{
+	color:#000;
+	line-height: 25px;
+}
+
+#store_list h3{
+	font-size: 11pt;
+	text-align: left;
+}
+#store_list h3 a{
+	color:#f00;
+}
+
+#store_list .grp-store{
+	width: 220px;
+    float:left;
+    margin:5px 10px 10px 13px;
+   
+}
+#store_list .grp-store h4{
+	border-bottom: 1px solid #f00;
+}

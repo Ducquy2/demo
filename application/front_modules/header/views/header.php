@@ -1,0 +1,68 @@
+<nav id="top">
+  <div class="container">
+            <div id="top-links" class="nav pull-right">
+      <ul class="list-inline">
+        <li><a href="index2724.html?route=information/contact"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md">123456789</span></li>
+        <li class="dropdown"><a href="indexe223.html?route=account/account" title="Tài khoản" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md">Tài khoản</span> <span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="index5502.html?route=account/register">Đăng ký</a></li>
+            <li><a href="indexe223.html?route=account/login">Đăng nhập</a></li>
+                      </ul>
+        </li>
+        <li><a href="indexe223.html?route=account/wishlist" id="wishlist-total" title="Yêu thích (0)"><i class="fa fa-heart"></i> <span class="hidden-xs hidden-sm hidden-md">Yêu thích (0)</span></a></li>
+        <li><a href="index630e.html?route=checkout/cart" title="Giỏ hàng"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Giỏ hàng</span></a></li>
+        <li><a href="index630e.html?route=checkout/checkout" title="Thanh toán"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md">Thanh toán</span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<welcome>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div id="logo">
+                    <a href="index9328.html?route=common/home"><img src="image/catalog/logo.png" title="Your Store" alt="Your Store" class="img-responsive" /></a>
+                  </div>
+      </div>
+      <div class="col-sm-5"><div id="search" class="input-group">
+  <input type="text" name="search" value="" placeholder="Từ khóa..." class="form-control input-lg" />
+  <span class="input-group-btn">
+    <button type="button" class="btn btn-default btn-lg"><i class="fa fa-search"></i></button>
+  </span>
+</div>      </div>
+      <div class="col-sm-3"><div id="cart" class="btn-group btn-block">
+  <button type="button" data-toggle="dropdown" data-loading-text="Đang xử lý..." class="btn btn-inverse btn-block btn-lg dropdown-toggle"><i class="fa fa-shopping-cart"></i> <span id="cart-total">0 sản phẩm - 0đ</span></button>
+  <ul class="dropdown-menu pull-right">
+        <li>
+      <p class="text-center">Giỏ hàng đang trống!</p>
+    </li>
+      </ul>
+</div>
+</div>
+    </div>
+  </div>
+</welcome>
+<div class="container">
+  <nav id="menu" class="navbar">
+    <div class="navbar-welcome"><span id="category" class="visible-xs">Danh mục</span>
+      <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
+    </div>
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+                        <li><a href="index73b3.html?route=product/category&amp;path=59">Rượu Cần</a></li>
+                                <li class="dropdown"><a href="index7fa3.html?route=product/category&amp;path=18" class="dropdown-toggle" data-toggle="dropdown">Thời Trang</a>
+          <div class="dropdown-menu">
+            <div class="dropdown-inner">
+                            <ul class="list-unstyled">
+                                <li><a href="index9f41.html?route=product/category&amp;path=18_46">Nam (0)</a></li>
+                                <li><a href="index8470.html?route=product/category&amp;path=18_45">Nữ (2)</a></li>
+                              </ul>
+                          </div>
+            <a href="index7fa3.html?route=product/category&amp;path=18" class="see-all">Tất cả Thời Trang</a> </div>
+        </li>
+                                <li><a href="index616b.html?route=product/category&amp;path=58">Người Yêu Tôi</a></li>
+                                <li><a href="indexc957.html?route=product/category&amp;path=24">Điện thoại &amp; PDAs</a></li>
+                      </ul>
+    </div>
+  </nav>
+</div>

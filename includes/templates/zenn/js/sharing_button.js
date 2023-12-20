@@ -1,0 +1,38 @@
+	function shareButtons(fb_product_link) {
+		var sharediv = "<div class=\"product-share\">";
+				sharediv += "			<div class=\"addthis_toolbox addthis_default_style \">";
+				sharediv += "				<div class=\"pd_social_buttons\">";
+				sharediv += "					<div id=\"fb-root\"></div>";
+				sharediv += "					<script>(function(d, s, id) {";
+				sharediv += "						var js, fjs = d.getElementsByTagName(s)[0];";
+				sharediv += "						if (d.getElementById(id)) return;";
+				sharediv += "						js = d.createElement(s); js.id = id;";
+				sharediv += "						js.src = \"../connect.facebook.net/en_US/all.js#xfbml=1\";";
+				sharediv += "						fjs.parentNode.insertBefore(js, fjs);";
+				sharediv += "					}(document, 'script', 'facebook-jssdk'));";
+				sharediv += "					</script>";
+				sharediv += "					<div class=\"fb-like\" data-href=\"" + fb_product_link + "\" data-layout=\"button\" data-action=\"like\" data-show-faces=\"false\" data-share=\"false\"></div>";
+				sharediv += "					<div class=\"g-plusone\" data-size=\"medium\" data-annotation=\"none\"></div>";
+				sharediv += "					<script type=\"text/javascript\">";
+				sharediv += "						window.___gcfg = {lang: 'vi'};";
+				sharediv += "						(function() {";
+				sharediv += "						var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;";
+				sharediv += "						po.src = '../apis.google.com/js/platform.js';";
+				sharediv += "						var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);";
+				sharediv += "						})();";
+				sharediv += "					</script>";
+				sharediv += "					<div id=\"pinterest-btn\">";
+				sharediv += "						<a href=\"//www.pinterest.com/pin/create/button/\" data-pin-do=\"buttonBookmark\"><img src=\"//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png\" /></a>";
+				sharediv += "						<script type=\"text/javascript\" async src=\"//assets.pinterest.com/js/pinit.js\"></script>";
+				sharediv += "					</div>";
+				sharediv += "					<div id=\"tweet-btn\">";
+				sharediv += "						<a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-lang=\"en\" data-count=\"none\">Tweet</a>";
+				sharediv += "						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=\"../platform.twitter.com/widgets.js\";fjs.parentNode.insertBefore(js,fjs);}}(document,\"script\",\"twitter-wjs\");</script>";
+				sharediv += "					</div>";
+				sharediv += "				</div>";
+				sharediv += "				<div class=\"atclear\"></div>";
+				sharediv += "			</div>";
+				sharediv += "		</div>";
+		$('.product_status').after(sharediv);
+	}
+	$(window).load(function(){shareButtons(fb_product_link);});

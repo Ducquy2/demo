@@ -1,0 +1,40 @@
+.shippingContent {
+	background-color: #efefef;
+	padding: 5px;
+	width: 780px;
+	max-width:100%;
+	font-size: 16px;
+	margin: 0 auto;
+	text-align: center;
+}
+.shippingContent img {
+	width: 780px;
+	height: auto;
+	max-width: 100%;
+	border: solid 1px #333333;
+	margin-bottom: 5px;
+}
+table tr td {
+	padding: 5px;
+}
+.address_container {
+	width: 940px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.address {
+	display: inline-block;
+	max-width: 100%;
+	margin: 5px;
+}
+.add1 {
+	margin-right: 30px;
+}
+.add2 {
+	margin-left: 30px;
+}
+@media(max-width:939px) {
+.add1 {margin-right: 5px;}
+.add2 {margin-left: 5px;}
+.address_container {text-align:center;}
+}
